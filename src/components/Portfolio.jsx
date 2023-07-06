@@ -2,6 +2,7 @@ import React from 'react'
 import ECommerceTemplate from '../assets/portfolio/ECommerceTemplate.png'
 import WeatherApp from '../assets/portfolio/WeatherApp.png'
 import Calculater from '../assets/portfolio/Calculater.png'
+import ecommwithrect from '../assets/portfolio/ecommwithrect.png'
 
 const Portfolio = () => {
     const portfolios = [
@@ -16,6 +17,10 @@ const Portfolio = () => {
         {
             id: 3,
             src: Calculater
+        },
+        {
+            id: 4,
+            src: ecommwithrect
         }
     ]
   return (
